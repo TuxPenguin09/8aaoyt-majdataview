@@ -1,0 +1,56 @@
+name: Part request
+description: Reserve your part!
+title: "[REQ PART]: #"
+labels: ["part request"]
+projects: []
+assignees:
+  - TuxPenguin09
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Part Request
+        
+        Thank you for contributing to this multiple chart making project for MajdataView (maimai Chart Simulator)
+        Please fill out the details below to reserve a part you wish to take.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: "Platform: Contact info, ex. Discord: @username"
+    validations:
+      required: true
+
+  - type: input
+    id: part_number
+    attributes:
+      label: Part number
+      description: Which part would you like to reserve? [2-29]
+      placeholder: "21"
+    validations:
+      required: true
+
+  - type: textarea
+    id: resume
+    attributes:
+      label: Resume
+      description: How are you good at using MajdataEdit or other charting tools? You can include a video link.
+      placeholder: Just learned the basics, first time charting in maimai simulator.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Agreement
+      description: Please confirm the following
+      options:
+        - label: I will finish my assigned part within up to 3 months of approval.
+          required: true
+        - label: I will avoid unfair UTAGE-style patterns unless approved.
+          required: true
+        - label: I agree to follow the project's charting guidelines.
+          required: true
