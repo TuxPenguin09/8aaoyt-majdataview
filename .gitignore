@@ -1,0 +1,11 @@
+*.bak.txt
+*.before_recovery.txt
+.autosave
+majSetting.json
+majdata.json
+parts/Adobe Premiere Pro Auto-Save
+parts/Adobe Premiere Pro Audio Previews
+parts/bg.mp4
+parts/seperator.prproj
+parts/[0-9]/vid.mp4
+parts/[0-9][0-9]/vid.mp4
