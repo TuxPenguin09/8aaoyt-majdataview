@@ -1,8 +1,6 @@
 *.bak.txt
 *.before_recovery.txt
 .autosave
-majSetting.json
-majdata.json
 parts/Adobe Premiere Pro Auto-Save
 parts/Adobe Premiere Pro Audio Previews
 parts/bg.mp4
